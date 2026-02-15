@@ -1,0 +1,12 @@
+{
+  "name": "pdf-research",
+  "version": "1.0.0",
+  "description": "LightRAG-based PDF document indexing and semantic search for research workflows",
+  "author": {
+    "name": "hongsw",
+    "url": "https://github.com/hongsw"
+  },
+  "repository": "https://github.com/hongsw/plugin-for-claude-research",
+  "license": "MIT",
+  "keywords": ["pdf", "research", "lightrag", "semantic-search", "rag", "indexing"]
+}
