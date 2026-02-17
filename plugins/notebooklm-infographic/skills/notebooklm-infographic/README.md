@@ -70,6 +70,36 @@ claude plugin list
 - ✅ Chrome 브라우저
 - ✅ 인터넷 연결
 
+## 📥 NotebookLM MCP 설치 가이드
+
+### 1단계: MCP 서버 설치
+
+```bash
+# Claude Code에서 실행
+claude mcp add notebooklm npx notebooklm-mcp@latest
+```
+
+설치 후 확인:
+```bash
+claude mcp list
+# 출력에 "notebooklm" 이 보여야 함
+```
+
+### 2단계: Google 계정 로그인
+
+Claude Code를 실행하고, 처음 `/infographic` 사용 시 브라우저가 열리면서
+NotebookLM (notebooklm.google.com) 로그인 화면이 나타납니다.
+Google 계정으로 로그인하세요.
+
+### 3단계: 동작 확인
+
+```bash
+# 간단한 테스트
+/infographic "인공지능 트렌드 2026"
+```
+
+약 5-8분 후 인포그래픽이 생성되면 설치 완료입니다.
+
 ## 📊 생성되는 인포그래픽 구조
 
 - 핵심 전망/목표 (숫자, 통계)
