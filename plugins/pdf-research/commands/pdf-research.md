@@ -150,3 +150,9 @@ pip install lightrag-hku[api] pymupdf python-dotenv
 
 ```
 User: /pdf-research
+---
+
+## 관련 정보 (See Also)
+- **Skill tool 호출**: Skill 이름 `pdf-research` 으로도 실행 가능
+- **플러그인 문서**: `plugins/pdf-research/README.md`
+- **전제 조건**: LightRAG 서버가 실행 중이어야 함 (`localhost:9621`)

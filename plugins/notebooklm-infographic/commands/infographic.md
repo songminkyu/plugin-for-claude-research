@@ -225,3 +225,10 @@ Claude:
 ---
 
 **즉시 시작**: 주제만 확인되면 자동으로 전체 프로세스를 실행하세요. 사용자의 추가 승인 없이 진행합니다.
+
+---
+
+## 관련 정보 (See Also)
+- **Skill tool 호출**: Skill 이름 `notebooklm-infographic` 으로도 실행 가능
+- **플러그인 문서**: `plugins/notebooklm-infographic/skills/notebooklm-infographic/README.md`
+- **전제 조건**: NotebookLM MCP 서버 설치 필요

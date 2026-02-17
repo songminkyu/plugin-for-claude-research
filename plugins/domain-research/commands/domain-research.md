@@ -108,3 +108,10 @@ This framework has been applied to:
 ---
 
 **Ready to begin?** Start with the welcome message and context discovery.
+
+---
+
+## 관련 정보 (See Also)
+- **Skill tool 호출**: Skill 이름 `domain-research` 으로도 실행 가능
+- **플러그인 문서**: `plugins/domain-research/README.md`
+- **관련 스킬**: `self-learning` (Claude Code 학습)

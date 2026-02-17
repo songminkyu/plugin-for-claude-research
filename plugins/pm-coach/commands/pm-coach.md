@@ -66,3 +66,10 @@
 - "최종 산출물의 형식은?"
 - "기한이 언제인가요?"
 - "성공 기준이 있나요?"
+
+---
+
+## 관련 정보 (See Also)
+- **Skill tool 호출**: Skill 이름 `pm-coach` 으로도 실행 가능
+- **플러그인 문서**: `plugins/pm-coach/README.md`
+- **관련 명령어**: `/request`, `/receive`, `/report` (모드별 직접 실행)
