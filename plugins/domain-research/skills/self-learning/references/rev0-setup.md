@@ -5,7 +5,7 @@
 ### Claude Code 설치
 
 Claude Code는 터미널에서 실행되는 AI 코딩 어시스턴트입니다.
-Node.js 설치가 필요 없습니다.
+Claude Code 설치에는 Node.js가 필요하지 않습니다 (일부 확장 기능은 별도 설치가 필요할 수 있음).
 
 **설치 명령어:**
 
