@@ -54,6 +54,20 @@ commit 3: "최종 검토 완료"
 | Cursor | AI 통합, 풍부한 기능 | AI 활용에 관심 있는 분 |
 | VSCode | 범용, 확장 풍부 | 개발 경험이 있는 분 |
 
+### 🖥️ PPTX 프로젝트 적용 예시
+
+PPTX 프로젝트를 Git으로 관리하면:
+
+```
+git log --oneline
+a3f9c12 feat: 렌더링 완료 - output-v3.pptx (🖨️)
+b7e2d41 content: 3페이지 내용 수정 완료 (✍️)
+c1a8b53 theme: 파란색 팔레트로 변경 (🎨)
+d4f6e29 init: PPTX 프로젝트 시작
+```
+
+"어제 버전으로 되돌려줘" → git checkout c1a8b53
+
 ---
 
 ## EXECUTE

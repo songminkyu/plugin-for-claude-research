@@ -38,6 +38,21 @@ Node.js 설치가 필요 없습니다.
 2. Anthropic 계정으로 인증
 3. 출력 스타일을 "Explanatory"로 설정 (학습에 적합)
 
+### 🖥️ PPTX 프로젝트 적용 예시
+
+Claude Code가 설치되면 바로 이 한 마디로 시작합니다:
+
+```
+Claude: "pptx-maker 프로젝트 폴더를 만들어줘"
+결과:
+pptx-project/
+├── .claude/
+│   └── CLAUDE.md       ← 스타일 가이드 (레볼루션 3-1에서 작성)
+├── theme/              ← 🎨 테마 설정 담당 작업 공간
+├── content/            ← ✍️ 내용 수정 담당 작업 공간
+└── output/             ← 🖨️ 렌더링 담당 작업 공간
+```
+
 ---
 
 ## EXECUTE
