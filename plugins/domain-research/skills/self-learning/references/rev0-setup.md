@@ -26,7 +26,7 @@ Claude Code 설치에는 Node.js가 필요하지 않습니다 (일부 확장 기
 
 | 에디터 | 특징 |
 |--------|------|
-| Antigravity | 무료, AI 내장, 가장 간단 |
+| Google Antigravity | 무료, AI 내장, 가장 간단 (Google, 2025년 출시) |
 | Cursor | AI 통합 에디터, Claude Code 호환 |
 | VSCode | 범용 에디터, 풍부한 확장 프로그램 |
 

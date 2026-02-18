@@ -34,6 +34,20 @@ Plugin 사용:
 npx skills add ai-native-camp/camp-1 --yes
 ```
 
+### Plugin 업데이트 방법
+
+설치 후 새 버전이 나왔을 때:
+
+```bash
+# Plugin 업데이트
+/plugin update domain-research
+
+# 또는 재설치로 업데이트
+/plugin install domain-research
+```
+
+> 💡 **팁**: 업데이트 전 `git pull`로 최신 코드를 먼저 받으면 항상 최신 스킬을 유지할 수 있습니다.
+
 ### Plugin 구조
 
 ```

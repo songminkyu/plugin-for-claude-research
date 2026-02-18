@@ -46,6 +46,15 @@ Agent Teams = 프로젝트 팀 (소통 + 칸반 보드)
 - 실험적 기능입니다
 - 분할 화면은 tmux를 사용하며, VS Code 터미널/Windows Terminal/Ghostty에서는 미지원
 
+**tmux 미지원 환경에서의 대안:**
+
+| 상황 | 대안 |
+|------|------|
+| macOS | Terminal.app 또는 iTerm2에서 실행 (`brew install tmux`로 tmux 설치도 가능) |
+| Linux | 기본 터미널 또는 `sudo apt install tmux`로 tmux 설치 |
+| Windows | WSL + Windows Terminal, 또는 tmux를 별도 설치 |
+| tmux 없이 유사 효과 | **Subagent**(Task 도구)로 병렬 작업 — 분할 화면 없이도 에이전트 위임 가능 |
+
 ---
 
 ### 🖥️ PPTX 프로젝트 적용 예시
