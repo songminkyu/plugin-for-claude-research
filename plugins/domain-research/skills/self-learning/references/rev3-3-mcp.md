@@ -48,6 +48,10 @@ Claude Code ←→ MCP 프로토콜 ←→ 외부 서비스
 }
 ```
 
+> ⚠️ **Node.js 안내**: 위 예시처럼 `npx` 명령어를 사용하는 MCP 서버는 **Node.js 설치가 필요**합니다.
+> Claude Code 자체는 Node.js 없이 설치되지만, npm 기반 MCP 서버를 사용하려면 [Node.js](https://nodejs.org)를 별도로 설치해야 합니다.
+> HTTP 방식으로 동작하는 MCP 서버는 Node.js 없이도 사용 가능합니다.
+
 ---
 
 ### 🖥️ PPTX 프로젝트 적용 예시

@@ -73,7 +73,7 @@ PPTX 파일 수정 시 자동으로 품질 검사를 실행하는 Hook을 설정
         "hooks": [
           {
             "type": "command",
-            "command": "if echo '$TOOL_INPUT' | grep -q '.pptx\\|slides'; then echo '✅ PPTX 품질 검사: 슬라이드 수 확인 완료'; fi"
+            "command": "echo '✅ PPTX 파일 수정 감지됨 -' $(date '+%H:%M:%S')"
           }
         ]
       }
@@ -92,6 +92,11 @@ PPTX 파일 수정 시 자동으로 품질 검사를 실행하는 Hook을 설정
   }
 }
 ```
+
+> 📌 **참고**: PostToolUse Hook은 도구 실행 데이터를 **stdin으로 JSON 형식**으로 전달받습니다.
+> 도구 입력에 접근하려면 `cat`으로 stdin을 읽어 파싱하세요. 상세 내용은 [공식 문서](https://code.claude.com/docs/ko/hooks)를 참조하세요.
+>
+> ⚠️ **보안 주의**: Hook은 **셸 명령어를 직접 실행**합니다. 신뢰할 수 없는 코드나 외부 입력을 Hook 명령어에 그대로 포함하지 마세요.
 
 → 렌더링 담당이 매번 "완료됐나요?" 확인 없이도 Hook이 자동으로 품질을 보장합니다.
 
