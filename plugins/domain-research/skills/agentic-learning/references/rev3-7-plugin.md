@@ -94,7 +94,7 @@ pptx-maker-plugin/
 
 이 프로젝트(`plugin-for-claude-research`)가 바로 Plugin입니다:
 - `domain-research` 스킬: 리서치 파이프라인
-- `self-learning` 스킬: 자기주도 학습
+- `agentic-learning` 스킬: 자기주도 학습
 - MCP 서버 설정: WebSearch, Sequential
 
 ---

@@ -1,7 +1,7 @@
 # 레볼루션 6: 리서치와 학습의 결합
 
 ## 목표
-self-learning 스킬과 domain-research 스킬을 결합하여 자기주도 심화 학습 방법을 익힙니다.
+agentic-learning 스킬과 domain-research 스킬을 결합하여 자기주도 심화 학습 방법을 익힙니다.
 
 ## 실행 프로토콜
 

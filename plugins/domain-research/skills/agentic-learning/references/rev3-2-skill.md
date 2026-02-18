@@ -92,7 +92,7 @@ description: PPTX 슬라이드 테마 설정. "테마 설정해줘", "디자인 
 ## EXECUTE
 
 1. 현재 프로젝트의 `.claude/skills/` 폴더를 확인해보세요
-2. 이 학습 스킬(`self-learning`)이 어떻게 구성되어 있는지 살펴보세요
+2. 이 학습 스킬(`agentic-learning`)이 어떻게 구성되어 있는지 살펴보세요
 3. `/day1-test-skill` 같은 간단한 스킬을 경험해보세요
 
 ---

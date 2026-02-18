@@ -1,6 +1,6 @@
 ---
-name: self-learning
-description: Claude Code 자기주도 학습 스킬. "/self-learning", "/learn", "학습", "스킬 배우기" 요청에 사용. ai-native-camp/camp-1 기반의 인터랙티브 학습 프레임워크. PPTX 자동 생성 프로젝트를 통일 예시로 사용.
+name: agentic-learning
+description: Claude Code 자기주도 학습 스킬. "/agentic-learning", "/learn", "학습", "스킬 배우기" 요청에 사용. ai-native-camp/camp-1 기반의 인터랙티브 학습 프레임워크. PPTX 자동 생성 프로젝트를 통일 예시로 사용.
 ---
 
 # Self-Learning Skill — Claude Code 자기주도 학습
@@ -112,7 +112,7 @@ description: Claude Code 자기주도 학습 스킬. "/self-learning", "/learn",
 
 ### 시작 명령어
 ```
-/self-learning              # 처음부터 시작
+/agentic-learning           # 처음부터 시작
 /learn rev3                 # 특정 레볼루션으로 이동
 /learn skill                # 스킬 만들기 실습
 /learn research             # 리서치 결합 학습
