@@ -5,10 +5,11 @@
 # Claude Research Framework
 
 > **한국어 안내**
-> Claude Code에서 **체계적인 리서치**를 도와주는 플러그인 모음입니다.
+> Claude Code에서 **체계적인 리서치**와 **AI 네이티브 학습**을 도와주는 플러그인 모음입니다.
 >
 > **포함된 플러그인:**
 > - **domain-research**: 대화형 리서치 파이프라인 (어떤 분야든 적용 가능)
+> - **agentic-learning**: Claude Code 에이전틱 학습 커리큘럼 (Rev 0~6, 7개 레볼루션)
 > - **pdf-research**: PDF 문서 인덱싱 및 시맨틱 검색 (LightRAG 기반)
 > - **pm-coach**: PM 업무 소통 최적화
 
@@ -21,6 +22,7 @@ A collection of **research plugins** for Claude Code that help you conduct syste
 | Plugin | Description | Use Case |
 |--------|-------------|----------|
 | **domain-research** | 5-step research pipeline with conversational intent analysis | Any domain research |
+| **agentic-learning** | AI-native coding curriculum (Rev 0~6, 7 revolutions) | Learn Claude Code by doing |
 | **pdf-research** | LightRAG-based PDF indexing and semantic search | Document analysis |
 | **pm-coach** | PM communication optimization (Korean) | Task communication |
 
@@ -36,6 +38,7 @@ A collection of **research plugins** for Claude Code that help you conduct syste
 
 # Install plugins
 /plugin install domain-research
+/plugin install agentic-learning
 /plugin install pdf-research
 /plugin install pm-coach
 ```
@@ -46,6 +49,15 @@ A collection of **research plugins** for Claude Code that help you conduct syste
 ```
 You: "I'm interested in AI for healthcare"
 Claude: [Conversational discovery → Research context → 5-step pipeline]
+```
+
+**Agentic Learning:**
+```
+You: /agentic-learning
+Claude: [레볼루션 0부터 시작 → 환경 설정 → CLI 이해 → 핵심 기능 학습]
+
+You: /learn rev3
+Claude: [Rev 3 핵심 기능 레볼루션으로 바로 이동]
 ```
 
 **PDF Research:**
@@ -132,6 +144,32 @@ python pdf_research.py status
 - OpenAI API key
 - Dependencies: `lightrag-hku[api]`, `pymupdf`, `python-dotenv`
 
+### 2. Agentic Learning
+
+AI-native coding curriculum that teaches Claude Code through hands-on agentic workflows.
+
+**Curriculum (7 Revolutions):**
+
+| Rev | 제목 | 핵심 내용 |
+|-----|------|-----------|
+| Rev 0 | 환경 설정 | Claude Code 설치 및 첫 실행 |
+| Rev 1 | 첫 경험 | 기본 대화, 파일 수정, PPTX 생성 체험 |
+| Rev 2 | Why CLI | GUI vs CLI, 왜 터미널이 필요한가 |
+| Rev 3 | 핵심 기능 | CLAUDE.md, 스킬, MCP, 서브에이전트, 훅, 플러그인 |
+| Rev 4 | 기본기 | 프롬프트 엔지니어링, 컨텍스트 관리 |
+| Rev 5 | 스킬 제작 | 나만의 스킬 만들기 실습 |
+| Rev 6 | 리서치 통합 | domain-research 결합, AI 네이티브 워크플로우 |
+
+**Commands:**
+```bash
+/agentic-learning        # 처음부터 시작
+/learn rev3             # 특정 레볼루션으로 이동
+/learn skill            # 스킬 만들기 실습
+/learn research         # 리서치 결합 학습
+```
+
+---
+
 ### 3. PM Coach
 
 PM communication optimizer for Korean users.
@@ -152,9 +190,12 @@ plugin-for-claude-research/
 │   └── marketplace.json         # Plugin registry
 ├── plugins/
 │   ├── domain-research/         # Research pipeline plugin
-│   │   ├── skills/domain-research/
-│   │   │   ├── SKILL.md
-│   │   │   └── prompts/
+│   │   ├── skills/
+│   │   │   ├── domain-research/ # Core research skill
+│   │   │   └── agentic-learning/# AI-native learning curriculum
+│   │   │       ├── SKILL.md
+│   │   │       ├── prompts/     # 7 revolution prompt files
+│   │   │       └── references/  # Rev 0~6 reference materials
 │   │   └── bin/install.js
 │   ├── pdf-research/            # PDF semantic search plugin
 │   │   ├── skills/pdf-research/
@@ -165,6 +206,7 @@ plugin-for-claude-research/
 │   └── pm-coach/                # PM communication plugin
 │       └── commands/
 ├── templates/                   # Research input templates
+├── CHANGELOG.md
 └── README.md
 ```
 
