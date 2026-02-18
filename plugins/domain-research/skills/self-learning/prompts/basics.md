@@ -1,4 +1,4 @@
-# Block 4: 기초 다지기
+# 레볼루션 4: 기초 다지기
 
 ## 목표
 CLI, Git, GitHub, 에디터의 기본 개념을 이해합니다.
@@ -8,7 +8,7 @@ CLI, Git, GitHub, 에디터의 기본 개념을 이해합니다.
 
 ### Phase A (설명 + 실습)
 
-참조 파일 `references/block4-basics.md`를 읽으세요.
+참조 파일 `references/rev4-basics.md`를 읽으세요.
 
 #### CLI 기초 — 5가지 필수 명령어
 
@@ -71,4 +71,4 @@ Claude Code에게 다음을 요청해보세요:
 각 퀴즈 피드백 후:
 "명령어를 외울 필요 없습니다. Claude에게 말로 지시하면 됩니다."
 
-→ Block 5로 이동 안내.
+→ 레볼루션 5로 이동 안내.

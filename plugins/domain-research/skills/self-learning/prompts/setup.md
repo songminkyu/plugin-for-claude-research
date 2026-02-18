@@ -1,4 +1,4 @@
-# Block 0: 환경 설정
+# 레볼루션 0: 환경 설정
 
 ## 목표
 Claude Code 설치 및 초기 설정을 완료합니다.
@@ -7,7 +7,7 @@ Claude Code 설치 및 초기 설정을 완료합니다.
 
 ### Phase A (설명 + 실습 안내)
 
-참조 파일 `references/block0-setup.md`의 EXPLAIN 섹션을 읽고 다음을 설명하세요:
+참조 파일 `references/rev0-setup.md`의 EXPLAIN 섹션을 읽고 다음을 설명하세요:
 
 1. **Claude Code 설치 방법**
    - Mac/Linux: `curl -fsSL https://claude.ai/install.sh | bash`
@@ -48,4 +48,4 @@ AskUserQuestion으로 확인:
   - 옵션 2: "설치는 했는데 대화는 아직이요"
   - 옵션 3: "설치에 문제가 있습니다"
 
-피드백 후 Block 1로 안내하세요.
+피드백 후 레볼루션 1로 안내하세요.

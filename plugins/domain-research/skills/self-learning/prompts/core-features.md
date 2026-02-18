@@ -1,4 +1,4 @@
-# Block 3: Claude Code 7대 핵심 기능
+# 레볼루션 3: Claude Code 7대 핵심 기능
 
 ## 목표
 Claude Code의 7가지 핵심 기능을 하나씩 학습합니다.
@@ -12,7 +12,7 @@ Claude Code의 7가지 핵심 기능을 하나씩 학습합니다.
 ---
 
 ### 기능 1: CLAUDE.md — 영구 기억 장치
-**참조**: `references/block3-1-claude-md.md`
+**참조**: `references/rev3-1-claude-md.md`
 📖 공식 문서: https://code.claude.com/docs/ko/memory
 
 **Phase A:**
@@ -32,7 +32,7 @@ Quiz: "CLAUDE.md는 언제 읽히나요?"
 ---
 
 ### 기능 2: Skill — 재사용 레시피
-**참조**: `references/block3-2-skill.md`
+**참조**: `references/rev3-2-skill.md`
 📖 공식 문서: https://code.claude.com/docs/ko/skills
 
 **Phase A:**
@@ -51,7 +51,7 @@ Quiz: "Skill이 CLAUDE.md와 다른 핵심 차이는?"
 ---
 
 ### 기능 3: MCP — 외부 도구 연결
-**참조**: `references/block3-3-mcp.md`
+**참조**: `references/rev3-3-mcp.md`
 📖 공식 문서: https://code.claude.com/docs/ko/mcp
 
 **Phase A:**
@@ -69,7 +69,7 @@ Quiz: "MCP란 무엇인가요?"
 ---
 
 ### 기능 4: Subagent — 독립 작업 위임
-**참조**: `references/block3-4-subagent.md`
+**참조**: `references/rev3-4-subagent.md`
 📖 공식 문서: https://code.claude.com/docs/ko/sub-agents
 
 **Phase A:**
@@ -88,7 +88,7 @@ Quiz: "Subagent가 중요한 이유는?"
 ---
 
 ### 기능 5: Agent Teams — 다중 에이전트 협업
-**참조**: `references/block3-5-agent-teams.md`
+**참조**: `references/rev3-5-agent-teams.md`
 📖 공식 문서: https://code.claude.com/docs/ko/agent-teams
 
 **Phase A:**
@@ -106,7 +106,7 @@ Quiz: "Agent Teams가 Subagent와 다른 점은?"
 ---
 
 ### 기능 6: Hook — 이벤트 자동화
-**참조**: `references/block3-6-hook.md`
+**참조**: `references/rev3-6-hook.md`
 📖 공식 문서: https://code.claude.com/docs/ko/hooks
 
 **Phase A:**
@@ -125,7 +125,7 @@ Quiz: "Hook은 언제 실행되나요?"
 ---
 
 ### 기능 7: Plugin — 패키지 배포
-**참조**: `references/block3-7-plugin.md`
+**참조**: `references/rev3-7-plugin.md`
 📖 공식 문서: https://code.claude.com/docs/ko/plugins
 
 **Phase A:**
@@ -159,4 +159,4 @@ CLAUDE.md (기본 규칙)
 
 "모르면 Claude에게 물어보면 됩니다."
 
-→ Block 4로 이동 안내.
+→ 레볼루션 4로 이동 안내.

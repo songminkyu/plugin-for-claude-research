@@ -1,4 +1,4 @@
-# Block 2: 왜 터미널인가?
+# 레볼루션 2: 왜 터미널인가?
 
 ## 목표
 CLI 기반 Claude Code가 왜 필요한지 이해합니다.
@@ -7,7 +7,7 @@ CLI 기반 Claude Code가 왜 필요한지 이해합니다.
 
 ### Phase A (설명 + Quiz 1)
 
-참조 파일 `references/block2-why.md`를 읽으세요.
+참조 파일 `references/rev2-why.md`를 읽으세요.
 
 📖 공식 문서: https://code.claude.com/docs/ko/overview
 
@@ -48,4 +48,4 @@ GUI(버튼 기반) vs CLI(터미널 기반)의 차이:
 - 코딩은 이제 "개발"이 아니라 "업무 자동화 도구"
 - Claude Code가 코드를 대신 작성하므로, 지시만 하면 됨
 
-→ Block 3으로 이동 안내.
+→ 레볼루션 3으로 이동 안내.

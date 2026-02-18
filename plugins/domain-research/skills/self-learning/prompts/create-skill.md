@@ -1,4 +1,4 @@
-# Block 5: 스킬 만들기 실습
+# 레볼루션 5: 스킬 만들기 실습
 
 ## 목표
 직접 Skill을 만들어보면서 스킬 시스템을 체득합니다.
@@ -7,7 +7,7 @@
 
 ### Phase A (설명 + 실습)
 
-참조 파일 `references/block5-create-skill.md`를 읽으세요.
+참조 파일 `references/rev5-create-skill.md`를 읽으세요.
 
 #### Skill의 최소 구성
 
@@ -92,4 +92,4 @@ Quiz (AskUserQuestion):
 - "복잡한 설정 파일들"
 - "프로그래밍 지식"
 
-→ Block 6으로 이동 안내.
+→ 레볼루션 6으로 이동 안내.
