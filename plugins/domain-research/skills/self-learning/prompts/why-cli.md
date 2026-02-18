@@ -5,9 +5,9 @@ CLI 기반 Claude Code가 왜 필요한지 이해합니다.
 
 ## 실행 프로토콜
 
-### Phase A (설명 + Quiz 1)
+### Phase A (설명 + 실습 안내)
 
-참조 파일 `references/rev2-why.md`를 읽으세요.
+참조 파일 `references/rev2-why.md`의 EXPLAIN 섹션을 읽고 다음을 설명하세요:
 
 📖 공식 문서: https://code.claude.com/docs/ko/overview
 
@@ -22,6 +22,19 @@ GUI(버튼 기반) vs CLI(터미널 기반)의 차이:
 [CLI Claude] → 컴퓨터의 모든 기능 접근 가능
 ```
 
+참조 파일의 EXECUTE 섹션을 읽고 실습을 안내하세요.
+
+마무리 멘트:
+"👆 위 내용을 직접 실행해보세요. 실행이 끝나면 '완료' 또는 '다음'이라고 입력해주세요."
+
+**여기서 STOP. Phase B로 넘어가지 마세요.**
+
+---
+
+### Phase B (Quiz 1 + Quiz 2 + 정리)
+
+사용자가 "완료" 또는 "다음"이라고 하면:
+
 **Quiz 1** (AskUserQuestion):
 "왜 터미널 기반 Claude Code가 필요할까요?"
 - 옵션 1: "CLI는 컴퓨터의 모든 기능을 제약 없이 사용할 수 있어서" ✅
@@ -29,14 +42,6 @@ GUI(버튼 기반) vs CLI(터미널 기반)의 차이:
 - 옵션 3: "GUI 도구가 없어서"
 
 정답 피드백 후:
-
-"👆 위 개념을 생각해보시고, '다음'이라고 입력해주세요."
-
-**여기서 STOP.**
-
----
-
-### Phase B (Quiz 2 + 정리)
 
 **Quiz 2** (AskUserQuestion):
 "터미널에서 코딩이 비개발자에게도 중요한 이유는?"
