@@ -50,6 +50,32 @@ my-plugin/
 └── README.md
 ```
 
+### 🖥️ PPTX 프로젝트 적용 예시
+
+PPTX 자동 생성 시스템을 Plugin으로 패키징하면 팀 전체가 한 줄로 설치합니다:
+
+```
+pptx-maker-plugin/
+├── .claude-plugin/
+│   └── plugin.json
+├── skills/
+│   ├── pptx-theme-setter/   # 🎨 테마 설정 스킬
+│   │   └── SKILL.md
+│   ├── pptx-content-writer/ # ✍️ 내용 수정 스킬
+│   │   └── SKILL.md
+│   └── pptx-renderer/       # 🖨️ 렌더링 스킬
+│       └── SKILL.md
+└── bin/
+    └── install.js           # 3개 스킬 한 번에 설치
+```
+
+팀원이 한 줄로 전체 PPTX 시스템을 설치:
+```bash
+/plugin install pptx-maker
+```
+
+→ 3명의 담당자 스킬이 모두 설치되어 즉시 팀 협업 가능!
+
 ### 현재 프로젝트가 Plugin의 예시
 
 이 프로젝트(`plugin-for-claude-research`)가 바로 Plugin입니다:

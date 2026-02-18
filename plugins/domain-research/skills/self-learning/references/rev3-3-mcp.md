@@ -50,6 +50,33 @@ Claude Code ←→ MCP 프로토콜 ←→ 외부 서비스
 
 ---
 
+### 🖥️ PPTX 프로젝트 적용 예시
+
+렌더링 담당이 Playwright MCP로 HTML → PPTX 변환을 자동화합니다:
+
+```json
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp"]
+    }
+  }
+}
+```
+
+```
+렌더링 담당 워크플로우:
+1. theme.json + slides-content.md 수신 (🎨테마 + ✍️내용)
+2. Playwright MCP로 HTML 슬라이드 렌더링
+3. 스크린샷 → 이미지 변환
+4. PPTX 파일로 조합하여 output.pptx 출력
+```
+
+→ Playwright MCP 없이는 HTML을 PPTX로 변환하는 것을 매번 수동으로 해야 합니다.
+
+---
+
 ## EXECUTE
 
 1. Claude에게 "MCP를 쉽게 설명해줘"라고 요청해보세요

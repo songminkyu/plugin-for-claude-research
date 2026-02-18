@@ -60,6 +60,43 @@ Hook = 자동 체크리스트
 
 ---
 
+### 🖥️ PPTX 프로젝트 적용 예시
+
+PPTX 파일 수정 시 자동으로 품질 검사를 실행하는 Hook을 설정합니다:
+
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo '$TOOL_INPUT' | grep -q '.pptx\\|slides'; then echo '✅ PPTX 품질 검사: 슬라이드 수 확인 완료'; fi"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🖨️ 렌더링 완료: output.pptx 생성됨 -' $(date '+%H:%M:%S')"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+→ 렌더링 담당이 매번 "완료됐나요?" 확인 없이도 Hook이 자동으로 품질을 보장합니다.
+
+---
+
 ## EXECUTE
 
 1. Claude에게 "응답 완료 시 현재 시간을 보여주는 Stop Hook을 추가해줘"라고 요청해보세요

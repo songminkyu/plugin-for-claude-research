@@ -112,7 +112,7 @@ function install() {
 ║    • comprehensive-guide.md - Final roadmap                ║
 ║                                                            ║
 ║  2. self-learning (자기주도 학습)                            ║
-║    • Block 0-6: Claude Code 핵심 기능 학습                  ║
+║    • 레볼루션 0-6: Claude Code 핵심 기능 학습               ║
 ║    • STOP 프로토콜 기반 인터랙티브 학습                       ║
 ║    • 스킬 만들기 실습 포함                                   ║
 ║                                                            ║
